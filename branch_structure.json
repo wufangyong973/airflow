@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "backport-5ddea25-v3-3-test",
+    "chart/v1-2x-test",
+    "ci-upgrade-main",
+    "ci-upgrade-v3-3-test",
+    "fix/63503-queued-duration-metric",
+    "main",
+    "origin",
+    "v3-3-test"
+  ],
+  "parent": {
+    "backport-5ddea25-v3-3-test": "main",
+    "chart/v1-2x-test": "main",
+    "ci-upgrade-main": "main",
+    "ci-upgrade-v3-3-test": "main",
+    "fix/63503-queued-duration-metric": "main",
+    "main": null,
+    "origin": "main",
+    "v3-3-test": "main"
+  },
+  "order": [
+    "main",
+    "backport-5ddea25-v3-3-test",
+    "chart/v1-2x-test",
+    "ci-upgrade-main",
+    "ci-upgrade-v3-3-test",
+    "fix/63503-queued-duration-metric",
+    "origin",
+    "v3-3-test"
+  ]
+}
